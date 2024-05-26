@@ -37,7 +37,7 @@ def main(file_path):
         
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("Usage: python parse_data.py </path/to/calude_chat_data.json>")
+        print("Usage: python chatlog_to_excel.py </path/to/calude_chat_data.json>")
         sys.exit(1)
 
     file_path = sys.argv[1]

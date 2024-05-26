@@ -91,7 +91,7 @@ def convert_unix_time_to_readable(unix_time):
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("Usage: python parse_data.py </path/to/conversations.json>")
+        print("Usage: python chatlog_to_excel.py </path/to/conversations.json>")
         sys.exit(1)
 
     file_path = sys.argv[1]
