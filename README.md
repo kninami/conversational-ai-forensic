@@ -40,7 +40,6 @@ pip install -r requirements.txt
 
 ## Usage
 
-1. **parsed_data.py** : Run this script to parse data and display it as forensic data. 
 ```
 python chatlog_to_excel.py /path/to/data.json 
 ```
