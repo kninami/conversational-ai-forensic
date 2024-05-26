@@ -13,12 +13,12 @@ Before using this project, you sould obtain the conversation data. There are sev
 
 ### Claude
 ``claude_chat_data.json`` from Chrome extensions
-1. Download the folder /claude/chrome extensions
+1. Download the folder from this project ``/claude/chrome extensions``
 2. Open the Chrome browser and enter ``chrome://extensions`` into the URL bar
 3. Activate ``Developer mode`` in the top right and click ``Load unpacked``
 4. Select the folder you downloaded 
 5. Go to ``claude.ai`` website and login
-6. Launch ``Claude Export Conversation Data`` and click ``Download JSON`` on the list page (``claude.ai./chats``)
+6. Launch ``Claude Export Conversation Data`` and click ``Download JSON`` on the list page (https://claude.ai/chats)
 
 ## Installation 
 
