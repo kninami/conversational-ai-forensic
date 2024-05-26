@@ -1,6 +1,7 @@
 # conversational-ai-forensic
 
 ## Overview 
+This project facilitates the collection and analysis of conversation data from conversational AI systems. By executing the provided Python program, users will generate an Excel file containing organized chat log data. 
 
 Before using this project, you sould obtain the conversation data. There are several different method to obtain data depending on the service. 
 
