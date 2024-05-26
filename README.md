@@ -2,9 +2,22 @@
 
 ## Overview 
 
-This is a Python Project consisting of two scripts: one for parsing data and disaplying it as forensic data(including the hash value of each chat log), and another for drawing graphs based on the parsed data.
+Before using this project, you sould obtain the conversation data. There are several different method to obtain data depending on the service. 
 
-Before using this project, you sould obtain ``conversations.json`` from ChatGPT website (settings > data control > export data)
+### ChatGPT
+``conversations.json`` from ChatGPT website (settings > data control > export data)
+
+### Google Gemini
+``MyActivity.json`` from Google Takeout Service (https://takeout.google.com/). You can obtain the data throught 'My Activity Log' in Google Takeout. Note that you must choose the JSON option when exporting the data. 
+
+### Claude
+``claude_chat_data.json`` from Chrome extensions
+1. Download the folder /claude/chrome extensions
+2. Open the Chrome browser and enter ``chrome://extensions`` into the URL bar
+3. Activate ``Developer mode`` in the top right and click ``Load unpacked``
+4. Select the folder you downloaded 
+5. Go to ``claude.ai`` website and login
+6. Launch ``Claude Export Conversation Data`` and click ``Download JSON`` on the list page (``claude.ai./chats``)
 
 ## Installation 
 
@@ -28,10 +41,5 @@ pip install -r requirements.txt
 
 1. **parsed_data.py** : Run this script to parse data and display it as forensic data. 
 ```
-python parse_data.py /path/to/conversations.json 
-```
-
-2. **draw_graph.py** : Run this script to draw graphs based on the parsed data
-```
-python draw_graph.py /path/to/chatgpt_parsed_cat_log.csv 
+python parse_data.py /path/to/data.json 
 ```
