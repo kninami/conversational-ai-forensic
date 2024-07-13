@@ -30,6 +30,16 @@
       transition: background-color 0.3s ease;
       margin-top: 20px;
     }
+    button:disabled {
+      background-color: #aaa;
+      cursor: not-allowed;
+    }
+    .loading-message {
+      font-size: 14px;
+      color: #333;
+      text-align: center;
+      margin-top: 10px;
+    }
     pre {
       font-size: 14px;
       color: #666;
@@ -46,11 +56,11 @@
   <h3>Usage</h3>
   <p>
     First, go to the Calude(https://claude.ai) website and log in.<Br/>
-    Second, click the download button. <br/>
-    Note: This must be done on the https://claude.ai/recents page <br/>
-    Please wait for about 30 seconds after clicking (it may take longer if there is a lot of data)
+    Second, go to the chat list webpage(https://claude.ai/recents)<br/>
+    Third, click the download button and wait for about a minute<br/>
   </p>
-  <button id="fetch">Download JSON</button>
+  <button id="fetch" style="opacity: 1; transition: opacity 0.3s;">Download JSON</button>
+  <div class="loading-message" id="loadingMessage" style="display:none;">Loading...</div>
   <pre id="result"></pre>
   <script src="popup.js"></script>
 </body>
