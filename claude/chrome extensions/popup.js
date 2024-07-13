@@ -7,7 +7,11 @@ document.getElementById('fetch').addEventListener('click', () => {
       url: currentTab.url
     }, (response) => {
       const jsonArray = response.data;
+      console.log("jsonArray")
+      console.log(jsonArray);
       const jsonString = JSON.stringify(jsonArray, null, 2);
+      console.log("jsonString")
+      console.log(jsonString);
       downloadJson(jsonString, 'claude_chat_data.json');
     });
   });
