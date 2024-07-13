@@ -18,7 +18,7 @@ Before using this project, you sould obtain the conversation data. There are sev
 3. Activate ``Developer mode`` in the top right and click ``Load unpacked``
 4. Select the folder you downloaded 
 5. Go to ``claude.ai`` website and login
-6. Launch ``Claude Export Conversation Data`` and click ``Download JSON`` on the list page (https://claude.ai/chats)
+6. Launch ``Claude Export Conversation Data`` and click ``Download JSON`` on the list page (https://claude.ai/recents)
 
 ## Installation 
 

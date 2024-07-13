@@ -2,3 +2,4 @@
 *.xlsx
 *.csv
 *.json
+.DS_Store
